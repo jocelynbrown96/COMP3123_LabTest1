@@ -1,3 +1,5 @@
+//Lab Test 1, Question 1: ES6 Features
+
 function lowerCaseWords(mixedArray) {
   //Return a promise that can either succeed or fail based on the input array.
     return new Promise((resolve, reject) => {
@@ -17,7 +19,7 @@ function lowerCaseWords(mixedArray) {
     });
 }
 
-//Sample input  declaration as per given instructions, containing a mixed array of strings and non-string elements.
+//Sample input declaration as per given instructions, containing a mixed array of strings and non-string elements.
 const mixedArray = ['PIZZA', 10, true, 25, false, 'Wings']
 
 //Example 1: An array triggers the success path.
