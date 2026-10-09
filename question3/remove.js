@@ -22,7 +22,7 @@ if (fileSystem.existsSync(logPath)) {
         console.log(`delete files...${logFileName}`);
     });
 
-    //Remove the Logs directory after it is empty..
+    //Remove the Logs directory after it is empty.
     fileSystem.rmdirSync(logPath);
 } else {
     //Explain why no files were removed.
